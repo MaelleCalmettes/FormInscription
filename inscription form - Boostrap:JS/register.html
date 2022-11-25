@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Acceslib - Inscription</title>
+</head>
+
+<body class="wallpaper d-flex justify-content-end">
+
+
+  <!-- begining container -->
+    <div class="corp-reg bg-reg">
+
+
+
+        <!-- logo -->
+        <img src="./img/Logo-Acceslib-Blanc.png
+        " alt="" style="max-width: 35%;" class="p-4">
+
+
+
+        <!-- title -->
+        <h1 class="text-light text-center pt-5">Inscription</h1>
+
+    
+        <!-- Begin form -->
+
+        <form class="row g-3 p-4 needs-validation" novalidate>
+
+
+          <!-- personal info bar -->
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label text-warning">Informations personnelles</label>
+              <input type="submit" value="" class="form-control bg-warning border-0 ht-xs" id="inputEmail4">
+            </div>
+            <!-- needs bar -->
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label text-light">Vos besoins</label>
+              <input type="submit" class="form-control ht-xs" id="inputPassword4" >
+            </div>
+
+            
+
+
+
+            <!-- mail -->
+
+            <div class="col-12">
+              <input type="email" class="form-control" id="inputEmail" placeholder="E-mail" name="email" value="" required>
+
+              <!-- invalid feedback -->
+              <div class="invalid-feedback">
+                Choississez un email valide.
+              </div>
+              <!-- exemple -->
+              <div class="messageMail d-none text-secondary p-2 position-absolute w-25 bg-warning rounded">
+                Exemple: "exemple@gmail.com"
+              </div>
+            </div>
+
+
+
+            <!-- id -->
+
+            <div class="col-12">
+              <input type="text" class="form-control" id="inputId" placeholder="Identifiant" name="id" value="" required>
+              <!-- invalid feedback -->
+              <div class="invalid-feedback">
+                Choisissez un identifiant valide et unique.
+              </div>
+              <!-- can contain -->
+              <div class="messageId d-none text-secondary p-2 pb-0 position-absolute w-25 bg-warning rounded" >
+                <p>Lettres minucules et majuscules OK</p>
+                <p>Chiffres OK</p>
+                <p>Caractères spéciaux OK</p>
+                <p>Maximum 10 caractères</p> 
+              </div>
+            </div>
+
+
+
+
+            <!-- password -->
+
+            <div class="col-md-6">
+                <input type="password" class="form-control" id="inputPassword" name="mdp" placeholder="Mot de passe" value="" required>
+                <!-- invalid feedback -->
+                <div class="invalid-feedback">
+                  Choisissez un mot de passe.
+                </div>
+                <div class="write d-none text-warning w-100"></div>
+                <!-- must contain -->
+                <div class="messageMDP position-absolute d-none text-secondary p-2 pb-0 w-25 bg-warning rounded " >
+                  <p>Minimum 8 caractères</p>
+                  <p>Au moins une lettre minucule</p>
+                  <p>Au moins une lettre majuscule</p>
+                  <p>Au moins un chiffre</p>
+                  <p>Au moins un caractère spécial</p>
+                </div>
+              </div>
+
+
+              <!-- verify password -->
+
+              <div class="col-md-6">
+                <input type="password" class="form-control" id="inputPasswordVerify" name="mdpVerify" value="" placeholder="Vérification Mot de passe" required>
+                <div class=" invalid-feedback">
+                  Veuillez écrire le même mot de passe.
+                </div>
+              </div>
+
+              <!-- submit -->
+
+              <div class="fs-1 text-warning text-center">
+                <input type="submit" value="Valider" class="btn btn-primary bg-warning text-secondary border-0">
+              </div>
+
+          </form>
+
+          <!-- End form -->
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/ebaa7fdcf0.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "luciole b";
+    src: url(./font/Luciole-Bold.ttf);
+}
+@font-face {
+    font-family: "luciole bi";
+    src: url(./font/Luciole-Bold-Italic.ttf);
+}
+@font-face {
+    font-family: "luciole i";
+    src: url(./font/Luciole-Regular-Italic.ttf);
+}
+@font-face {
+    font-family: "luciole";
+    src: url(/font/Luciole-Regular.ttf)
+}
+
+.bg-form{
+    background-color: #14213D;
+    border-radius: 25px;
+}
+.img-resize{
+    max-width: 35px;
+}
+.wallpaper{
+    background-image: url(/img/bgreg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-reg{
+    background-color: #14213D;
+    width: 50%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.font{
+    font-family: "luciole";
+}
+.ht-xs{
+    height: 10px;
+}
+.row{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.was-validated .form-control:valid.is-invalid {
+    border-color: red;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23f83245' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23f83245' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E"); 
+}
+
+.was-validated .form-control:valid:focus.is-invalid:focus {
+    border-color: red; 
+}
